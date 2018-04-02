@@ -1,0 +1,44 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  width: 100%
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-left: 1.5rem;
+
+}
+
+.logo img {
+  height: 3rem;
+}
+
+.colmar {
+  color: grey;
+}
+
+.nav {
+  display: inline-flex;
+  margin-right: 1.5rem;
+
+}
+
+.nav span {
+  align-items: center;
+  margin-left: 1rem;
+}
