@@ -92,5 +92,102 @@ header {
   color: lightgrey;
   background-color: #56595e;
   padding: .5rem 0;
+}
 
+/*Info*/
+
+#info {
+  font-family: "Merriweather", serif;
+  background-color: #f2f2f3;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 1.5rem;
+  width: 60%;
+  color: #56595e;
+}
+
+.left-img img {
+  width: 100%;
+}
+
+#info h2 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 2rem 0 1.5rem 0;
+}
+
+.left-content p {
+  margin-bottom: 2rem;
+}
+
+.left-content span {
+  font-weight: bold;
+  margin-bottom: 2rem;
+  font-size: 0.75rem;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border-left: 1px solid lightgrey;
+  color: #56595e;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin-left: 1rem;
+}
+
+.top,
+.mid,
+.bottom {
+  display: inline-flex;
+  padding: 2rem 0;
+}
+
+.top-img,
+.mid-img,
+.bottom-img {
+  width: 35%;
+  height: auto;
+  margin-left: 1rem;
+}
+
+.top-img img,
+.mid-img img,
+.bottom-img img {
+  width: 100%;
+  height: auto;
+}
+
+.right-content h3{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.right-content p{
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.right-content span{
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  color: blue;
+}
+
+.top {
+  border-bottom: 2px solid lightgrey;
+}
+
+.bottom {
+  background-color: lightgrey;
 }
