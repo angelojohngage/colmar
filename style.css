@@ -247,3 +247,107 @@ header {
   height: auto;
   width: 100%;
 }
+
+/* Exhibit*/
+
+.exhibits {
+  font-family: "Merriweather", serif;
+  background-color: #f2f2f3;
+}
+
+.exhibits h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+  color: #56595e;
+  margin-top: 2rem;
+}
+
+.exhibit-content {
+  display: inline-flex;
+}
+
+.exhibits .left-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0rem 1.5rem;
+  width: 60%;
+  color: #56595e;
+}
+
+.exhibits .left-img video {
+  width: 100%;
+}
+
+.exhibits h2 {
+  font-size: 1rem;
+  font-weight: 900;
+  margin: 2rem 0 1.5rem 0;
+}
+
+.exhibits .left-content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.exhibits .left-content h2 {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.exhibits .right-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  color: #56595e;
+  border: none;
+  margin-top: 2.8rem;
+}
+
+.exhibits .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin-left: 1rem;
+}
+
+.exhibits.top,
+.exhibits.mid {
+  display: inline-flex;
+  padding: 1rem 0;
+}
+
+.exhibits .top-img,
+.exhibits .mid-img{
+  width: 35%;
+  height: auto;
+  margin-left: 1rem;
+}
+
+.exhibits .top-img img,
+.exhibits .mid-img img {
+  width: 100%;
+  height: auto;
+}
+
+.exhibits .right-content h3{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.exhibits .right-content p{
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.exhibits .right-content span{
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+  color: blue;
+}
+
+.exhibits .top {
+  background-color: lightgrey;
+}
