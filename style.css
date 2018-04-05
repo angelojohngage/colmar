@@ -191,3 +191,59 @@ header {
 .bottom {
   background-color: lightgrey;
 }
+
+/* Courses*/
+
+#learn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Merriweather", serif;
+  background-color: #e4e4e7;
+}
+
+#learn h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #56595e;
+  margin-top: 2rem;
+}
+
+.courses {
+  margin: 2rem 4.5rem;
+}
+
+.course-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course {
+  width: 30%;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.course h3,
+.course span,
+.course p {
+  margin: 1rem;
+}
+
+.course h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #56595e;
+}
+
+.course span,
+.course p {
+  font-size: 0.75rem;
+  color: #56595e;
+}
+
+.course img {
+  height: auto;
+  width: 100%;
+}
