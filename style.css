@@ -202,8 +202,8 @@ header {
   background-color: #e4e4e7;
 }
 
-#learn h2 {
-  font-size: 2rem;
+.exhibit learn h2 {
+  font-size: 1rem;
   font-weight: 900;
   color: #56595e;
   margin-top: 2rem;
@@ -283,6 +283,7 @@ header {
   font-size: 1rem;
   font-weight: 900;
   margin: 2rem 0 1.5rem 0;
+
 }
 
 .exhibits .left-content p {
@@ -290,7 +291,7 @@ header {
   margin-bottom: 2rem;
 }
 
-.exhibits .left-content h2 {
+.exhibits .left-content h3 {
   margin-bottom: 2rem;
   font-size: 1rem;
 }
